@@ -27,7 +27,7 @@ function App() {
        
         </Table.HeaderCell>
         <Table.HeaderCell> Department</Table.HeaderCell>
-        <Table.HeaderCell><button type="button" onClick={ e => this.setState({ filterStr: e.target.value })}> </button>Salary</Table.HeaderCell>
+        <Table.HeaderCell><button type="button" onClick={ e => this.setState({ filterStr: e.target.value })}>Salary  </button></Table.HeaderCell>
       </Table.Row>
     </Table.Header>
 
