@@ -13,7 +13,7 @@ function App() {
    }
    setEmployees(fakeEmployees)
   }, [])
-  const { filterStr } = this.state;
+  // const { filterStr } = this.state;
   return (
     <div className="App">
     
